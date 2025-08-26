@@ -1,72 +1,142 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Sertifikat - H. Abdul Rohiim S, S.P</title>
+  <title>Portofolio Certificates</title>
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f6f9;
       margin: 0;
-      padding: 0;
-      color: #333;
+      font-family: 'Poppins', sans-serif;
+      background-color: #2e2e2e; /* abu-abu gelap */
+      color: #f1f1f1;
     }
     header {
-      background: #2c3e50;
-      color: #fff;
+      background: linear-gradient(90deg, #f9d423, #ff4e50); /* kuning ke merah biar hangat */
+      padding: 20px;
       text-align: center;
-      padding: 30px 20px;
+      color: #2e2e2e;
     }
     header h1 {
       margin: 0;
-      font-size: 28px;
+      font-weight: 600;
     }
     header p {
       margin: 5px 0 0;
-      font-size: 16px;
+      font-size: 14px;
       opacity: 0.9;
     }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
+    main {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    .category {
+      background: #3a3a3a;
+      margin-bottom: 25px;
       padding: 20px;
-      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
-    .card h3 {
+    .category h2 {
       margin-top: 0;
-      font-size: 20px;
-      color: #2c3e50;
+      color: #f9d423; /* kuning */
     }
-    .btn {
-      display: inline-block;
-      background: #3498db;
-      color: #fff;
-      padding: 8px 15px;
-      border-radius: 6px;
+    .cert-list {
+      list-style: none;
+      padding: 0;
+    }
+    .cert-list li {
+      margin: 8px 0;
+    }
+    .cert-list a {
       text-decoration: none;
-      font-size: 14px;
-      transition: background 0.3s;
+      color: #f1f1f1;
+      background: #444;
+      padding: 8px 12px;
+      border-radius: 8px;
+      display: inline-block;
+      transition: all 0.3s ease;
     }
-    .btn:hover {
-      background: #2980b9;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 13px;
-      color: #777;
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
+    .cert-list a:hover {
+      background: #f9d423;
+      color: #2e2e2e;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Portfolio Sert
+    <h1>Portofolio Certificates</h1>
+    <p>by H. Abdul Rohiim S, S.P</p>
+  </header>
+
+  <main>
+    <div class="category">
+      <h2>📘 Data Learning</h2>
+      <ul class="cert-list">
+        <li><a href="Data Learning/Excel_Basic_by_Seratus_Ilmu.pdf" target="_blank">Sertifikat Data Learning 1</a></li>
+        <li><a href="Data Learning/Excel_with_Power_Pivot_by_Narasio_Datafest.pdf" target="_blank">Sertifikat Data Learning 2</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h2>🌐 Language</h2>
+      <ul class="cert-list">
+        <li><a href="Language/English_TEAP_by_UNS.pdf" target="_blank">Sertifikat Language 1</a></li>
+        <li><a href="Language/English_TOEFL_by_INEO.pdf" target="_blank">Sertifikat Language 2</a></li>
+        <li><a href="Language/English_TOEFL_by_English_Power.pdf" target="_blank">Sertifikat Language 3</a></li>
+        <li><a href="Language/English_Conversation_by_SMA_100_Jakarta.pdf" target="_blank">Sertifikat Language 3</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h2>🎓 Training</h2>
+      <ul class="cert-list">
+        <li><a href="Training/K3_Umum_by_Porkesra.pdf" target="_blank">Sertifikat Training 1</a></li>
+        <li><a href="Training/K3_First_AID_by_Porkesra.pdf" target="_blank">Sertifikat Training 2</a></li>
+        <li><a href="Training/K3_Operasi_Warehouse_by_BKTI.pdf" target="_blank">Sertifikat Training 3</a></li>
+        <li><a href="Training/K3_Dasar-Dasar_Manajemen_Resiko_by_BKTI.pdf" target="_blank">Sertifikat Training 4</a></li>
+        <li><a href="Training/Otomotif_Roda_Dua_by_PPKD.pdf" target="_blank">Sertifikat Training 5</a></li>
+        <li><a href="Training/Leadership_Training_by_IATSS.pdf" target="_blank">Sertifikat Training 6</a></li>
+        <li><a href="Training/JCI - Talkshow Public Speaking.pdf" target="_blank">Sertifikat Training 7</a></li>
+        <li><a href="Training/Project_Menulis_by_Halo_Penulis.pdf" target="_blank">Sertifikat Training 8</a></li>
+        <li><a href="Training/Project_Menulis_by_Jago_Menulis.pdf" target="_blank">Sertifikat Training 9</a></li>
+        <li><a href="Training/Canva - 50 Design Milestone Badge.pdf" target="_blank">Sertifikat Training 10</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h2>🎤 Webinar</h2>
+      <ul class="cert-list">
+        <li><a href="Webinar/Anti_Korupsi_by_KPK.pdf" target="_blank">Sertifikat Webinar 1</a></li>
+        <li><a href="Webinar/Career_Compas_by_Atma.pdf" target="_blank">Sertifikat Webinar 2</a></li>
+        <li><a href="Webinar/Career_Preparation_by_LPK_KEN.pdf" target="_blank">Sertifikat Webinar 3</a></li>
+        <li><a href="Webinar/Business_for_GenZ_By_Atma.pdf" target="_blank">Sertifikat Webinar 4</a></li>
+        <li><a href="Webinar/High_Paying_Retail_by_Atma.pdf" target="_blank">Sertifikat Webinar 5</a></li>
+        <li><a href="Webinar/Social_Media_Analytics_by_BINUS.pdf" target="_blank">Sertifikat Webinar 6</a></li>
+        <li><a href="Webinar/Excel_fo_Business_Data_by_Edspert.id.pdf" target="_blank">Sertifikat Webinar 7</a></li>
+        <li><a href="Webinar/English_Basic_for_Customer_by_Pintarnya.pdf" target="_blank">Sertifikat Webinar 8</a></li>
+        <li><a href="Webinar/K3_Kebersihan_Tangan_Dunia_by_Cendrawasih.pdf" target="_blank">Sertifikat Webinar 9</a></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h2>🛠 Workshop</h2>
+      <ul class="cert-list">
+        <li><a href="Workshop/JCI - Talkshow ICB.pdf" target="_blank">Sertifikat Workshop 1</a></li>
+        <li><a href="Workshop/Masterclass_Canva_by_SGB.pdf" target="_blank">Sertifikat Workshop 2</a></li>
+        <li><a href="Workshop/Capcut_Pro_Class_by_Atma.pdf" target="_blank">Sertifikat Webinar 3</a></li>
+        <li><a href="Workshop/Siap_Digital_by_Gapura_Digital.pdf" target="_blank">Sertifikat Webinar 4</a></li>
+        <li><a href="Workshop/Handal_Digital_by_Gapura_Digital.pdf" target="_blank">Sertifikat Webinar 5</a></li>
+        <li><a href="Workshop/Profesional_Digital_by_Gapura_Digital.pdf" target="_blank">Sertifikat Webinar 6</a></li>
+        <li><a href="Workshop/Photography_Exposure_by_Mezink.pdf" target="_blank">Sertifikat Webinar 7</a></li>
+        <li><a href="Workshop/Photography_Smartphone_by_Mezink.pdf" target="_blank">Sertifikat Webinar 8</a></li>
+        <li><a href="Workshop/Photography_Editing_Essentials_by_Mezink.pdf" target="_blank">Sertifikat Webinar 9</a></li>
+        <li><a href="Workshop/Excel_with_Power_Pivot_by_Narasio_Datafest.pdf" target="_blank">Sertifikat Webinar 10</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
